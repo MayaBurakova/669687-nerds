@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Майя Буракова](https://up.htmlacademy.ru/htmlcss/21/user/669687).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Половков] (https://htmlacademy.ru/profile/psinegmatic).
 
 ---
 
