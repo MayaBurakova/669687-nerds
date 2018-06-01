@@ -1,0 +1,34 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -1,12 +1,25 @@
+ <!DOCTYPE html>
+-<html lang="ru">
++<html lang='ru'>
+   <head>
+-    <meta charset="utf-8">
++    <meta charset='utf-8'>
+     <title>HTML Academy: Нёрдс</title>
+   </head>
+   <body>
+-
+-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+-
++	<div class='page-header'>
++		<div class='header-top'>
++			<img src='' alt='Nerds' width='' height=''>
++		<div class='main-header'>
++			<nav class='main-nav'>
++				<a href=''>Студия</a>
++				<a href=''>Клиенты</a>
++				<a href=''>Магазин</a>
++				<a href=''>Контакты</a>
++				<a href=''>Корзина</a>
++			</nav>
++			<p>Долго, дорого,<br>скрупулезно.<br></p>
++			<p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
++		</div>
++		</div>
++	</div>
+   </body>
+-</html>
++</html>
+\ No newline at end of file
