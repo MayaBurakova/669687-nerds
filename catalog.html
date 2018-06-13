@@ -56,7 +56,7 @@
 				</fieldset>
 				<fieldset>
 					<legend>Особенности:</legend>
-						<ul>
+						<ul class='features-list'>
 							<li class='filter-option'>
 								<input class='visually-hidden filter-input filter-input-checkbox' type='checkbox' name='slider' id='filter-slider' checked>
 								<label for='filter-slider'>Слайдер</label>
@@ -185,13 +185,13 @@
 		
 		<section class='contacts'>
 			<h2 class='visually-hidden'>Контактная информация</h2>
-			<p>NЁRDS DESIGN STUDIO</p>
-			<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
-			<p>тел. +7 (812) 275-75-75</p>
-			<a class='button' href='contacts.html'>Напишите нам</a>
+			<p class='contacts-title'>NЁRDS DESIGN STUDIO</p>
+			<p class='address'>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+			<p class='address'>тел. +7 (812) 275-75-75</p>
+			<a class='button button-contacts' href='contacts.html'>Напишите нам</a>
 		</section>
 		
-		<section class='write-to-us'>
+		<section class='modal write-to-us'>
 			<h2>Напишите нам</h2>
 			<form class='write-to-us-form' action='https://echo.htmlacademy.ru' method='post'>
 				<p class='write-to-us-item'>
@@ -204,18 +204,18 @@
 				</p>
 				<p class='write-to-us-item'>
 					<label for='write-to-us-letter'>Текст письма:</label>
-					<textarea name='letter' placeholder='В свободной форме' cols='50' rows='10' id='write-to-us-letter'>В свободной форме</textarea>
+					<textarea class='letter' name='letter' placeholder='В свободной форме' cols='50' rows='10' id='write-to-us-letter'>В свободной форме</textarea>
 				</p>
-					<button class='button' type='submit'>Отправить</button>
+					<button class='button button-write-to-us' type='submit'>Отправить</button>
 					<button class='modal-close' type='button'>Закрыть</button>
 			</form>
 		</section>
 	
 		<section class='footer-social'>
 			<ul>
-				<li><a class='social-button button-vk' href='#'><img src='img/vk-icon.svg' width='26' height='15' alt='Вконтакте'></a></li>
-				<li><a class='social-button button-fb' href='#'><img src='img/fb-icon.svg' width='12' height='22' alt='Facebook'></a></li>
-				<li><a class='social-button button-insta' href='#'><img src='img/insta-icon.svg' width='21' height='21' alt='Instagram'></a></li>
+				<li><a class='social-button button-vk' href='#'><img src='img/vk-icon.svg' width='26' height='15' alt='Вконтакте'>Вконтакте</a></li>
+				<li><a class='social-button button-fb' href='#'><img src='img/fb-icon.svg' width='12' height='22' alt='Facebook'>Facebook</a></li>
+				<li><a class='social-button button-insta' href='#'><img src='img/insta-icon.svg' width='21' height='21' alt='Instagram'>Instagram</a></li>
 			</ul>
 			<div class='footer-discount'>
 				<b>Давайте дружить, это выгодно!</b>
