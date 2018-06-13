@@ -33,10 +33,10 @@ a {
 	color: black;
 }
 
-.site-navigation a:focus,
 .site-navigation a:hover,
-.user-navigation a:focus,
-.user-navigation a:hover {
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
 	color: #fb565a;
 }
 
@@ -44,6 +44,10 @@ a {
 .user-navigation a:active {
 	color: #a7a7a7;
 }
+
+/* .main-header-logo:hover,
+.main-header-logo:focus {
+}*/
 
 .slide-title {
 	font-size: 55px;
@@ -64,6 +68,7 @@ a {
 }
 
 .button {
+	font: inherit;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
@@ -153,4 +158,116 @@ a {
 	margin-bottom: 35px;
 }
 
+.resume h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
 
+.orders {
+	list-style: none;
+}
+
+caption {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 49px;
+}
+
+.facts {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 10.06px;
+}
+
+.partners li {
+	display: inline-block;
+	opacity: 0.2;
+}
+
+.partners li:hover,
+.partners li:focus {
+	opacity: 1;
+}
+
+.partners li:active {
+	opacity: 0.1;
+}
+
+.contacts-title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.address {
+	color: #666666;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.button-contacts {
+	background-color: #fb565a;
+	padding: 19px 46px 19px 45px;
+	border-radius: 3px;
+}
+
+.write-to-us h2 {
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+}
+
+.write-to-us-form input[type='text'],
+.write-to-us-form input[type='email'] {
+	font: inherit;
+	width: 360px;
+	height: 50px;
+	border: 2px solid #d7dcde;
+}
+
+.write-to-us-form input:hover,
+.write-to-us-form input:focus,
+textarea:hover,
+textarea:focus {
+	border: 2px solid #b4b9bb;
+}
+
+.write-to-us-form input:active,
+textarea:active {
+	border: 2px solid #000000;
+}
+
+.letter {
+	font: inherit;
+	border: 2px solid #d7dcde;
+	opacity: 0.5;
+	color: #444444;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+label {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+.button-write-to-us {
+	background-color: #fb565a;
+	padding: 19px 84px 18px 82px;
+	border-radius: 3px;
+}
+
+.footer-social li {
+	list-style: none;
+}
+
+b {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+}
