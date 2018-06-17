@@ -167,7 +167,6 @@ caption {
 }
 
 .partners li {
-	display: inline-block;
 	opacity: 0.2;
 }
 
@@ -401,4 +400,206 @@ b {
 
 .pagination-item-current a {
 	border: 3px solid #dbdbdb;
+}
+
+/* СЕТОЧНЫЕ СТИЛИ */
+
+body,
+html {
+	min-width: 1440px;
+	min-height: 2476px;
+}
+
+.main-header {
+	margin-bottom: 81px;
+}
+
+.main-navigation {
+	padding-top: 49px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main-header-logo {
+	width: 160px;
+	height: 65px;
+}
+
+.site-navigation {
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.user-navigation {
+	width: 160px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-navigation-wrapper {
+	width: 100%;
+	margin-bottom: 36px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.main-navigation-wrapper .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.slide {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.slide-item {
+	width: 1160px;
+}
+
+.services-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	margin-bottom: 82px;
+	padding: 0;
+	list-style: none;
+}
+
+.services-item {
+	width: 300px;
+}
+
+.resume {
+	display: flex;
+	width: 1160px;
+	padding-top: 42px;
+	margin-bottom: 80px;
+}
+
+.about-us {
+	width: 660px;
+	padding-right: 140px;
+}
+
+.information {
+	width: 360px;
+}
+
+.our-partners {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+.our-partner {
+	padding-top: 48px;
+	width: 260px;
+}
+
+.modal-map {
+	width: 100%;
+	padding-top: 81px;
+}
+
+.footer-social {
+	margin-top: 69px;
+}
+
+.footer-wrapper {
+	display: flex;
+}
+
+.social-buttons {
+	margin: 0;
+	padding: 0;
+	padding-right: 140px;
+	list-style: none;
+	width: 260px;
+}
+	
+.footer-discount {
+	width: 560px;
+}
+
+/*  Не получается спустить вниз заголовок.
+Еще и какое-то огромное пространство появилось
+под хэдером :(( */
+.page-title {
+	margin-top: 84px;
+	width: 760px;
+}
+
+.filters {
+	width: 260px;
+	padding-right: 140px;
+}
+
+.features-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.catalog {
+	width: 820px;
+}
+
+.catalog-columns {
+	width: 1160px;
+	display: flex;
+}
+
+.catalog-sort {
+	display: flex;
+	width: 760px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-bottom: 58px;
+}
+
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 26px;
+	list-style: none;
+}
+
+.catalog-item {
+	width: 360px;
+	margin-right: 40px;
+	margin-bottom: 34px;
+}
+
+.catalog-item:nth-child(2n) {
+	margin-right: 0;
+}
+
+.pagination-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.inner-page .modal-map {
+	margin-top: 60px;
+}
+
+.inner-page .main-navigation {
+	margin-bottom: 116px;
 }
