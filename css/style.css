@@ -316,7 +316,7 @@ b {
 	color: #000000;
 }
 
-.type-sort {
+.type-sort-item {
 	opacity: 0.3;
 	color: #000000;
 	font-size: 14px;
@@ -329,12 +329,13 @@ b {
 	opacity: 1;
 }
 
-.type-sort:hover,
-.type-sort:focus {
+.type-sort-item:hover,
+.type-sort-item:focus {
 	opacity: 0.6;
 }
 
-.type-sort:active {
+.type-sort-item:active {
+	color: #000000;
 	opacity: 1;
 }
 
@@ -412,8 +413,8 @@ b {
 .main-navigation {
 	padding-top: 49px;
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .main-header-logo {
@@ -422,6 +423,9 @@ b {
 }
 
 .site-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	width: 500px;
 	margin: 0;
 	padding: 0;
@@ -429,6 +433,8 @@ b {
 }
 
 .user-navigation {
+	display: flex;
+	align-items: center;
 	width: 160px;
 	margin: 0;
 	padding: 0;
@@ -448,7 +454,7 @@ b {
 }
 
 .slide-item {
-	width: 1160px;
+	display: flex;
 }
 
 .services-list {
@@ -498,6 +504,9 @@ b {
 	width: 100%;
 	padding-top: 81px;
 }
+.modal-map img {
+	width: 100%;
+}
 
 .footer-social {
 	margin-top: 69px;
@@ -508,25 +517,40 @@ b {
 }
 
 .social-buttons {
+	display: flex;
+	align-items: baseline;
 	margin: 0;
 	padding: 0;
 	padding-right: 140px;
 	list-style: none;
 	width: 260px;
 }
-	
+
+.social-button {
+	padding-right: 11px;
+}
+
 .footer-discount {
 	width: 560px;
 }
 
-.page-title {
-	margin-top: 84px;
-	width: 760px;
+.main-header h1 {
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+	padding-left: 218px;
+	padding-bottom: 117px;
+	padding-top: 80px;
+	padding-right: 218px;
 }
 
 .filters {
 	width: 260px;
 	padding-right: 140px;
+}
+
+.filters h2 {
+	padding-top: 0;
 }
 
 .features-list {
@@ -553,6 +577,20 @@ b {
 	margin-bottom: 58px;
 }
 
+.type-sort {
+	margin: 0;
+	padding: 0;
+	padding-left: 265px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.type-sort-item {
+	padding-right: 25px;
+}
+	
+	
 .catalog-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -573,15 +611,13 @@ b {
 }
 
 .pagination-list {
+	display: flex;
+	align-items: baseline;
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-.inner-page .modal-map {
-	margin-top: 60px;
-}
-
-.inner-page .main-navigation {
-	margin-bottom: 116px;
+.pagination-item {
+	padding-right: 11px;
 }
