@@ -404,14 +404,9 @@ b {
 
 /* СЕТОЧНЫЕ СТИЛИ */
 
-body,
-html {
-	min-width: 1440px;
-	min-height: 2476px;
-}
-
 .main-header {
 	margin-bottom: 81px;
+	background-color: #eeeeee;
 }
 
 .main-navigation {
@@ -440,20 +435,10 @@ html {
 	list-style: none;
 }
 
-.main-navigation-wrapper {
-	width: 100%;
-	margin-bottom: 36px;
-}
-
 .container {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 20px;
-}
-
-.main-navigation-wrapper .container {
-	display: flex;
-	justify-content: space-between;
 }
 
 .slide {
@@ -534,9 +519,6 @@ html {
 	width: 560px;
 }
 
-/*  Не получается спустить вниз заголовок.
-Еще и какое-то огромное пространство появилось
-под хэдером :(( */
 .page-title {
 	margin-top: 84px;
 	width: 760px;
