@@ -652,8 +652,8 @@ label {
 
 .social-buttons {
 	display: flex;
-	flex-wrap: no-wrap;
-	align-items: start;
+	flex-wrap: nowrap;
+	align-items: flex-start;
 	margin: 0;
 	padding: 0;
 	padding-right: 140px;
