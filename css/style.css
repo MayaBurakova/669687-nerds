@@ -12,7 +12,6 @@ a {
 }
 
 img {
-	box-sizing: border-box;
 	max-width: 100%;
 	height: auto;
 }
@@ -64,11 +63,16 @@ input[type='radio'].visually-hidden {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
 	width: 500px;
 	margin: 0;
-	padding: 0px;
+	margin-left: 45px;
+	padding: 0;
+	padding-top: 16px;
 	list-style: none;
+}
+
+.site-navigation li {
+	padding-right: 45px;
 }
 
 .user-navigation {
@@ -78,6 +82,7 @@ input[type='radio'].visually-hidden {
 	max-width: 160px;
 	margin: 0;
 	padding: 0;
+	padding-top: 15px;
 	list-style: none;
 }
 
@@ -95,7 +100,7 @@ input[type='radio'].visually-hidden {
 
 .user-navigation .login-link {
 	position: relative;
-	padding-left: 50px;
+	padding-left: 65px;
 }
 
 .site-navigation li,
@@ -167,7 +172,7 @@ input[type='radio'].visually-hidden {
 
 .slider-item {
 	display: none;
-	padding: 78px 0 36px 0;
+	padding: 78px 0 43px 0;
 }
 
 .slider-item:nth-child(1) {
@@ -244,7 +249,7 @@ input[type='radio'].visually-hidden {
 .description {
 	max-width: 430px;
 	margin: 0;
-	margin-bottom: 38px;
+	margin-bottom: 37px;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -276,8 +281,8 @@ input[type='radio'].visually-hidden {
 
 .button-learn-more {
 	background-color: #fb565a;
-	margin-bottom: 38px;
-	padding: 19px 55px 18px 53px;
+	margin-bottom: 37px;
+	padding: 16px 56px 16px 53px;
 	border-radius: 3px;
 }
 
@@ -286,12 +291,16 @@ input[type='radio'].visually-hidden {
 	justify-content: space-between;
 	padding: 0;
 	padding-bottom: 80px;
+	padding-right: 60px;
 	margin: 0;
 	list-style: none;
 	border-bottom: 2px solid #eeeeee;
 }
 
 .services-item h3 {
+	padding: 0;
+	margin: 0;
+	padding-top: 18px;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 30px;
@@ -303,11 +312,11 @@ input[type='radio'].visually-hidden {
 }
 
 .services-item p {
-	margin-bottom: 35px;
+	margin-bottom: 32px;
 }
 
 .button-services {
-	padding: 19px 39px 18px 39px;
+	padding: 19px 40px 13px 39px;
 	border-radius: 3px;
 }
 
@@ -347,18 +356,9 @@ input[type='radio'].visually-hidden {
 	box-sizing: border-box;
 	display: flex;
 	width: 100%;
-	padding-top: 80px;
-	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 47px;
 	border-bottom: 2px solid #eeeeee;
-}
-
-.resume h3 {
-	padding: 0;
-	padding-bottom: 35px;
-	padding-top: 50px;
-	margin: 0;
-	font-weight: 700;
-	text-transform: uppercase;
 }
 
 .resume p {
@@ -368,7 +368,8 @@ input[type='radio'].visually-hidden {
 
 .about-us-title {
 	padding: 0;
-	padding-bottom: 45px;
+	padding-bottom: 33px;
+	padding-top: 34px;
 	margin: 0;
 	font-size: 45px;
 	font-weight: 500;
@@ -382,26 +383,26 @@ input[type='radio'].visually-hidden {
 }
 
 .orders {
-	margin-top: 47px;
+	margin-top: 38px;
 }
 
 .orders-list {
 	padding: 0;
-	padding-top: 35px;
+	padding-top: 25px;
 	margin: 0;
 	list-style: none;
 }
 
 .orders-list li {
 	position: relative;
-	padding-bottom: 35px;
-	padding-left: 38px;
+	padding-bottom: 24px;
+	padding-left: 36px;
 }
 
 .orders-list li::before {
 	content: '';
 	position: absolute;
-	bottom: 47px;
+	bottom: 35px;
 	left: 0;
 	width: 25px;
 	height: 2px;
@@ -411,6 +412,7 @@ input[type='radio'].visually-hidden {
 .about-us {
 	width: 660px;
 	padding-right: 140px;
+	padding-bottom: 2px;
 }
 
 .information {
@@ -418,17 +420,13 @@ input[type='radio'].visually-hidden {
 }
 
 caption {
-	padding-top: 40px;
-	padding-bottom: 50px;
+	padding-top: 29px;
+	padding-bottom: 48px;
+	padding-left: 14px;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
 	text-transform: uppercase;
-}
-
-.facts td {
-	padding-right: 10px;
-	padding-bottom: 25px;
 }
 
 .facts {
@@ -436,10 +434,24 @@ caption {
 	font-weight: 700;
 }
 
+.facts td {
+	padding-right: 10px;
+	padding-bottom: 23px;
+}
+
+.conditions td {
+	padding: 0;
+	margin: 0;
+}
+
+.facts tr {
+	line-height: 19px;
+}
+
 .partners {
 	box-sizing: border-box;
 	width: 100%;
-	padding-top: 46px;
+	padding-top: 45px;
 	text-align: center;
 	border-bottom: 2px solid #eeeeee;
 }
@@ -468,15 +480,23 @@ caption {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	margin-bottom: 50px;
+	margin-bottom: 37px;
 }
 
 .our-partner {
 	width: 260px;
 }
 
+.partner-html-academy {
+	padding-top: 11px;
+}
+
+.partner-mishka {
+	padding-top: 7px;
+}
+
 .modal-map {
-	margin-top: 80px;
+	margin-top: 79px;
 }
 
 .inner-page .modal-map{
@@ -500,7 +520,7 @@ caption {
 	position: absolute;
 	width: 319px;
 	top: -360px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	border: 1px solid white;
 	background-color: #ffffff;
 }
@@ -510,9 +530,8 @@ caption {
 	font-weight: 700;
 	line-height: 30px;
 	text-transform: uppercase;
-	padding-top: 54px;
-	padding-left: 50px;
-	margin-top: 0;
+	padding-top: 30px;
+	padding-left: 49px;
 }
 
 .address,
@@ -524,14 +543,19 @@ caption {
 	padding-left: 50px;
 }
 
+.address {
+	padding-top: 6px;
+}
+
 .tel {
+	padding-top: 2px;
 	margin-bottom: 0;
 }
 
 .button-contacts {
-	padding: 19px 46px 19px 45px;
-	margin-top: 37px;
-	margin-left: 50px;
+	padding: 21px 43px 11px 46px;
+	margin-top: 35px;
+	margin-left: 49px;
 	border-radius: 3px;
 	background-color: #fb565a;
 }
@@ -574,12 +598,12 @@ caption {
 }
 
 .write-to-us {
+	box-sizing: border-box;
 	top: 50px;
 	left: 0;
 	right: 0;
 	width: 960px;
 	padding: 70px 80px 84px 80px;
-	box-sizing: border-box;
 }
 
 .write-to-us-form {
@@ -727,6 +751,15 @@ label {
 
 .footer-discount {
 	width: 560px;
+	padding: 0;
+	padding-top: 7px;
+	margin: 0;
+}
+
+.footer-discount p {
+	padding: 0;
+	margin: 0;
+	padding-top: 8px;
 }
 
 b {
@@ -735,24 +768,27 @@ b {
 	line-height: 36px;
 }
 
+.inner-page .main-header {
+	margin-bottom: 53px;
+}
+
 .main-header h1 {
 	margin: 0;
-	padding: 0;
+	margin-left: -3px;
+	padding-left: 218px;
+	padding-bottom: 108px;
+	padding-top: 77px;
+	padding-right: 210px;
 	font-size: 55px;
 	font-weight: 500;
 	line-height: 55px;
-	padding-left: 218px;
-	padding-bottom: 115px;
-	padding-top: 80px;
-	padding-right: 218px;
 	background-color: #eeeeee;
 }
 
-.site-navigation-current {
-	background: linear-gradient(to right, #fb565a, #fb565a 100%);
-    background-position: 0 100%;
-    background-size: 8px 2px;
-    background-repeat: repeat-x;
+.site-navigation-current a {
+	border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    padding-top: 5px;
 }
 
 .filters {
@@ -774,14 +810,23 @@ b {
 }
 
 .filter-item {
+	padding-bottom: 20px;
 	margin: 0;
 	padding: 0;
 	border: none;
 }
 
+.filter-item .value{
+	padding-top: 5px;
+}
+
+.features-list-option {
+	margin-bottom: 37px;
+}
+
 .range-filter {
 	width: 260px;
-	margin-top: 49px;
+	margin-top: 29px;
 }
 
 .filter-item legend {
@@ -849,9 +894,9 @@ b {
 	
 .price-controls input {
 	width: 60px;
-	padding: 8px 10px;
-	margin-left: 10px;
-	margin-bottom: 62px;
+	padding: 10px 10px;
+	margin-left: 9px;
+	margin-bottom: 56px;
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
 	text-align: center;
@@ -859,6 +904,10 @@ b {
 	border: none;
 	border-radius: 5px;
 	background: #f1f1f1;
+}
+	
+label .min-price {
+	padding-top: 1px;
 }
 	
 .max-price {
@@ -894,22 +943,22 @@ b {
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	margin-bottom: 57px;
+	margin-bottom: 25px;
 	color: #283136;
 }
 
 .features-list li {
 	padding: 0;
 	margin: 0;
-	padding-bottom: 15px;
-	padding-left: 35px;
+	padding-bottom: 20px;
+	padding-left: 37px;
 }
 
 .filter-input-radio + label::before {
 	content: '';
 	position: absolute;
 	margin-right: 15px;
-	top: -4px;
+	top: -3px;
 	left: -35px;
 	width: 15px;
 	height: 15px;
@@ -920,7 +969,7 @@ b {
 .filter-input-radio:checked + label::after {
 	content: '';
 	position: absolute;
-	top: 3px;
+	top: 4px;
 	left: -28px;
 	width: 9px;
 	height: 9px;
@@ -1048,7 +1097,6 @@ b {
 }
 
 .card-header {
-	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -1060,10 +1108,10 @@ b {
 .card-header::before {
 	content: '';
 	position: absolute;
-	width: 12px;
-	height: 12px;
+	width: 13px;
+	height: 13px;
 	top: 14px;
-	left: 15px;
+	left: 17px;
 	border-radius: 50%;
 	background-color: white;
 }
@@ -1071,20 +1119,20 @@ b {
 .card-header::after {
 	content: '';
 	position: absolute;
-	width: 12px;
-	height: 12px;
+	width: 13px;
+	height: 13px;
 	top: 14px;
-	left: 35px;
+	left: 40px;
 	border-radius: 50%;
 	background-color: white;
 }
 
 .circle {
 	position: absolute;
-	width: 12px;
+	width: 13px;
 	height: 12px;
 	top: 14px;
-	left: 55px;
+	left: 63px;
 	border-radius: 50%;
 	background-color: white;
 }
@@ -1099,7 +1147,6 @@ b {
 }
 
 .card-text {
-	box-sizing: border-box;
 	position: absolute;
 	width: 100%;
 	bottom: 0;
@@ -1119,8 +1166,8 @@ b {
 	display: flex;
 	padding: 0;
 	margin: 0;
+	margin-bottom: 50px;
 	list-style: none;
-	margin-bottom: 58px;
 }
 
 .catalog-sort h3 {
@@ -1139,8 +1186,12 @@ b {
 
 .catalog-item {
 	width: 360px;
+	padding-bottom: 26px;
 	margin-right: 40px;
-	margin-bottom: 34px;
+}
+
+.catalog-item li {
+	padding-bottom: 33px;
 }
 
 .catalog-item:nth-child(2n) {
@@ -1167,6 +1218,8 @@ b {
 .switch-down::before {
 	content: url(../img/icon-down-active.png);
 	position: absolute;
+	padding-top: 2px;
+	padding-left: 25px;
 	top: 1px;
 	cursor: pointer;
 }
@@ -1183,7 +1236,8 @@ b {
 .switch-up::before {
 	content: url(../img/icon-up.png);
 	position: absolute;
-	bottom: 5px;
+	padding-left: 29px;
+	bottom: 3px;
 	left: 25px;
 	cursor: pointer;
 }
@@ -1248,7 +1302,7 @@ b {
 }
 
 .pagination-item a {
-	padding: 19px 23px 19px 21px;
+	padding: 17px 23px 14px 18px;
 	background-color: #eeeeee;
 	color: #000000;
 	font-size: 16px;
@@ -1258,7 +1312,7 @@ b {
 }
 
 .pagination-item-next {
-	padding: 19px 79px 16px 78px;
+	padding: 17px 77px 16px 78px;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
@@ -1283,7 +1337,7 @@ b {
 }
 
 .pagination-item-current a {
-	padding: 16px 20px 16px 18px;
+	padding: 14px 17px 11px 18px;
 	border: 3px solid #dbdbdb;
 	background: #ffffff;
 }
