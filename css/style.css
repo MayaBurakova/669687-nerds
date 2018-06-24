@@ -553,7 +553,7 @@ caption {
 }
 
 .button-contacts {
-	padding: 21px 43px 11px 46px;
+	padding: 19px 43px 14px 46px;
 	margin-top: 35px;
 	margin-left: 49px;
 	border-radius: 3px;
@@ -954,6 +954,11 @@ label .min-price {
 	padding-left: 37px;
 }
 
+.net .filter-option {
+	padding-bottom: 18px;
+}
+
+
 .filter-input-radio + label::before {
 	content: '';
 	position: absolute;
@@ -1158,7 +1163,7 @@ label .min-price {
 	opacity: 1;
 }
 
-.catalog-item:hover {
+.catalog-item:hover .card{
 	box-shadow: 0 6px 15px rgba(0, 1, 1, 0.25);
 }
 
@@ -1298,12 +1303,13 @@ label .min-price {
 }
 
 .pagination-item {
-	padding-right: 11px;
+	padding-right: 10px;
 }
 
 .pagination-item a {
-	padding: 17px 23px 14px 18px;
+	padding: 16px 22px 15px 20px;
 	background-color: #eeeeee;
+	vertical-align: middle;
 	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
@@ -1337,7 +1343,8 @@ label .min-price {
 }
 
 .pagination-item-current a {
-	padding: 14px 17px 11px 18px;
+	vertical-align: middle;
+	padding: 12px 18px 13px 17px;
 	border: 3px solid #dbdbdb;
 	background: #ffffff;
 }
