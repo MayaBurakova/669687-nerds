@@ -634,6 +634,10 @@ input[type='radio'].visually-hidden {
 	border: 2px solid #000000;
 }
 
+.write-to-us-form input:invalid {
+	border: 2px solid #e74246;
+}
+
 .write-to-us-item {
 	width: 360px;
 }
