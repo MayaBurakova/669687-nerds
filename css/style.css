@@ -419,7 +419,7 @@ input[type='radio'].visually-hidden {
 	width: 360px;
 }
 
-caption {
+.data caption {
 	padding-top: 29px;
 	padding-bottom: 48px;
 	padding-left: 14px;
@@ -624,8 +624,8 @@ caption {
 
 .write-to-us-form input:hover,
 .write-to-us-form input:focus,
-textarea:hover,
-textarea:focus {
+.write-to-us-letter textarea:hover,
+.write-to-us-letter textarea:focus {
 	border: 2px solid #b4b9bb;
 }
 
@@ -657,7 +657,7 @@ textarea:active {
 	line-height: 45px;
 }
 
-.write-to-us textarea {
+.write-to-us-letter textarea {
 	box-sizing: border-box;
 	width: 100%;
 	padding-left: 15px;
@@ -674,7 +674,7 @@ textarea:active {
 	line-height: 18px;
 }
 
-label {
+.write-to-us-form label {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 18px;
@@ -762,7 +762,7 @@ label {
 	padding-top: 8px;
 }
 
-b {
+.footer-discount b {
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 36px;
