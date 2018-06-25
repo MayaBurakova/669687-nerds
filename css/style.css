@@ -630,7 +630,7 @@ input[type='radio'].visually-hidden {
 }
 
 .write-to-us-form input:active,
-textarea:active {
+.write-to-us-letter textarea:active {
 	border: 2px solid #000000;
 }
 
