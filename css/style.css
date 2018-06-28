@@ -93,9 +93,9 @@ input[type='radio'].visually-hidden {
 	left: 26px;
 	width: 15px;
 	height: 15px;
-	background-image: url(../img/cart-icon.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+	background-image: url(../img/link-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 .user-navigation .login-link {
@@ -512,7 +512,7 @@ input[type='radio'].visually-hidden {
 
 .modal-map-wrapper {
 	box-sizing: border-box;
-	background-image: url(../img/map_marker.png);
+	background-image: url(../img/map.jpg);
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: 100%;
@@ -574,6 +574,10 @@ input[type='radio'].visually-hidden {
 	background-color: #ffffff;
 	box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
 	z-index: 2;
+}
+
+.modal-show {
+	display: block;
 }
 
 .modal-close {
@@ -1012,13 +1016,11 @@ label .min-price {
 	border: none;
 }
 
-.filter-input-radio + label:hover::before,
-.filter-input-radio + label:focus::before {
+.filter-input-radio + label:hover::before {
 	border: 4px solid #4d4d4d;
 }
 
-.filter-input-radio:checked + label:hover::after,
-.filter-input-radio:checked + label:focus::after {
+.filter-input-radio:checked + label:hover::after {
 	background-color: #4d4d4d;
 }
 
@@ -1026,13 +1028,19 @@ label .min-price {
 	border: 4px solid #ededed;
 }
 
-.filter-input-checkbox + label:hover::before,
-.filter-input-checkbox + label:focus::before {
+.filter-input-radio:focus + label::before {
+	border: 4px solid #4d4d4d;
+}
+
+.filter-input-radio:checked:focus + label::after {
+	background-color: #4d4d4d;
+}
+
+.filter-input-checkbox + label:hover::before {
 	border: 2px solid #4d4d4d;
 }
 
-.filter-input-checkbox:checked + label:hover::before,
-.filter-input-checkbox:checked + label:focus::before {
+.filter-input-checkbox:checked + label:hover::before {
 	content: url(../img/checkbox-hover.png);
 	border: none;
 }
@@ -1044,6 +1052,15 @@ label .min-price {
 
 .filter-input-checkbox:disabled + label::before {
 	border: 2px solid #ededed;
+}
+
+.filter-input-checkbox:focus + label::before {
+	border: 2px solid #000000;
+}
+
+.filter-input-checkbox:checked:focus + label::before {
+	content: url(../img/checkbox-hover.png);
+	border: none;
 }
 
 .features-list label {
