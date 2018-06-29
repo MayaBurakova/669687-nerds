@@ -502,6 +502,11 @@ input[type='radio'].visually-hidden {
 	padding-top: 7px;
 }
 
+.modal-map iframe {
+	width: 100%;
+}
+	
+
 .modal-map {
 	margin-top: 79px;
 }
